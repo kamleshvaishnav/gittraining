@@ -19,3 +19,18 @@ Command Prompt #> which git
 
 Command Prompt #> git --version
 git version 2.22.0
+
+Command Prompt #> git init
+Command Prompt #> git add
+Command Prompt #> git commit
+Command Prompt #> git push
+Command Prompt #> git status
+Command Prompt #> git log
+Command Prompt #> git pull
+Command Prompt #> git remote add origin <git repository url>
+Command Prompt #> git stash
+Command Prompt #> git branch
+Command Prompt #> git merge
+Command Prompt #> git revert
+Command Prompt #> git cherry-pick
+

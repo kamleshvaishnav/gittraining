@@ -34,3 +34,21 @@ Command Prompt #> git merge
 Command Prompt #> git revert
 Command Prompt #> git cherry-pick
 
+**** Docker Commands ****
+Docker subsystem has multiple components.
+1. Docker Client : Installed on the client machine e.g. Windows / Linux / MacOS
+2. Docker Daemon : Background process talking to docker client running on client machine
+3. Docker Hub : A remote repository configured for docker daemon to look for Docker Images
+4. Dicker Images : A docker image is an instance of application abstraction / os abstration.
+5. Docker Container : A running instance of a docker image on a client machine.
+
+
+Command Prompt #> docker container run hello-world
+This pulls "hello-world" image from Docker hub and runs it locally on a docker engine as a separate container.
+
+Command Prompt #> docker container run -it alpine /bin/sh
+Run alpine container in an interactive mode with shell prompt appearing.
+
+Command Prompt #> docker search
+
+

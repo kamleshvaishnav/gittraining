@@ -11,4 +11,4 @@ hellomake: hellomake.o hellofunc.o
 .PHONY: clean
 
 clean:
-	rm -rf *.o core *~
+	rm -rf *.o core *~ ./hellomake

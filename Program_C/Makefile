@@ -1,14 +1,14 @@
 CC=gcc
 CFLAGS=-I.
-DEPS = hellomake.h
+DEPS = helloadd.h
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-hellomake: hellomake.o hellofunc.o
-	$(CC) -o hellomake hellomake.o hellofunc.o
+helloadd: helloadd.o hellofunc.o
+	$(CC) -o helloadd helloadd.o hellofunc.o
 
 .PHONY: clean
 
 clean:
-	rm -rf *.o core *~ ./hellomake
+	rm -rf *.o core *~ ./helloadd

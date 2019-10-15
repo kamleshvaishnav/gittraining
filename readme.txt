@@ -52,3 +52,13 @@ Run alpine container in an interactive mode with shell prompt appearing.
 Command Prompt #> docker search
 
 
+Jenkins
+=======
+1. Successfully installed the jenkins instance on Ubuntu 18.04
+2. Configure the jenkins after opening firewall port on cloud instance for port 8080
+3. Restart jenkins and put ssh public key of the machine into cloud instance for remote terminal ssh access.
+4. Configure jenkins
+Objective 1: Create a new job in jenkins for compiling github repository gittraining c program.
+- 
+
+

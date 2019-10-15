@@ -58,10 +58,11 @@ Jenkins
 2. Configure the jenkins after opening firewall port on cloud instance for port 8080
 3. Restart jenkins and put ssh public key of the machine into cloud instance for remote terminal ssh access.
 4. Configure jenkins
-Objective 1: Create a new job in jenkins for compiling github repository gittraining c program.
+Objective 1: Create a new job in jenkins for compiling github repository gittraining c + java program.
 - Jenkins job need to configure with the advanced option for custom workspace.
 - Ensure that the custom workspace has no issues with the permissions.
 - Use "execute shell" option in build section and add commands to build and run the executable.
 - Check the console output after clicking on build job. :-) Voila it runs and runs well!
 
+Objective 2: Create a new job, which pulls github repository and builds and run both c and java job.
 

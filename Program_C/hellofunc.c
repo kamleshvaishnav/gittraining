@@ -5,6 +5,6 @@
 void myPrintHelloMake(void)
 {
 	printf("Hello makefiles!\n");
-	
+	printf("Testing github pull and build by jenkin job\n")l
 	return;
 }

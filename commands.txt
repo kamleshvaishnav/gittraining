@@ -1,1 +1,7 @@
 blank file for writing commands
+-- git status
+-- git clone
+-- git add .a
+-- git commit 
+-- git push
+-- git checkout
